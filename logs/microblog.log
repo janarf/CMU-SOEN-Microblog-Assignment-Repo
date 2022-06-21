@@ -1,0 +1,40 @@
+2022-06-21 17:47:13,078 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:47:14,227 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:47:30,424 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:52:35,132 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:52:42,403 ERROR: Exception on /auth/login [POST] [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 20, in login
+    app.logger.error('testing warning log')
+NameError: name 'app' is not defined
+2022-06-21 17:52:51,358 ERROR: Exception on /auth/login [POST] [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py:1454]
+Traceback (most recent call last):
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/venv/lib/python3.9/site-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/auth/routes.py", line 20, in login
+    app.logger.error('testing warning log')
+NameError: name 'app' is not defined
+2022-06-21 17:54:08,211 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:55:32,548 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:56:14,259 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:57:39,144 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 17:58:51,617 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 18:02:58,156 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 18:04:57,964 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 18:07:06,694 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 18:07:07,363 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
+2022-06-21 18:07:15,760 INFO: Microblog startup [in /home/janainafernandes/Documentos/curso_eng_software/CMU-SOEN-Microblog-Assignment-Repo/app/__init__.py:89]
